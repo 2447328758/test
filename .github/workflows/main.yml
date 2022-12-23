@@ -1,8 +1,8 @@
 name: out hello world!
 on:
   schedule:
-  -cron: 0 0 * * *
-workflow-dispatch:
+    -cron: 0 0 * * *
+  workflow-dispatch:
 
 jobs: 
   say-hello-world:
