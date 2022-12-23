@@ -2,9 +2,7 @@ name: out hello world!
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow-dispatch:
-    inputs:
-      tag: 123
+  workflow-dispatch
 
 jobs: 
   say-hello-world:
