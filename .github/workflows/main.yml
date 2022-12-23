@@ -10,6 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: print hello world
-      run: echo "compiling.."\
-        javac main.java
-        java main
+      run: sh run.sh
