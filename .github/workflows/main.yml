@@ -1,0 +1,10 @@
+name: out hello world!
+
+jobs: 
+  say-hello-world:
+    name: "say hello wolrd"
+    runs-on: ubuntu-latest
+    steps:
+    - name: print hello world
+    run: |
+      echo "compiling...."
