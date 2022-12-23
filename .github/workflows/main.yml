@@ -1,4 +1,5 @@
 name: out hello world!
+on: workflow-dispatch
 
 jobs: 
   say-hello-world:
