@@ -1,3 +1,3 @@
 #!/bin/bash
-javac main.java
-java main
+javac Test.java
+java Test
